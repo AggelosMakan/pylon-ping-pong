@@ -1,0 +1,4 @@
+// when you write the word "ping" in discord, pylon bot replies with "pong"
+commands.raw('ping', (message) => message.reply('pong!'));
+// when you write the word "pong" in discord, pylon bot replies with "ping"
+commands.raw('pong', (message) => message.reply('ping!'));
