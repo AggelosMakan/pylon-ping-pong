@@ -1,3 +1,8 @@
+const commands = new discord.command.CommandGroup({
+  defaultPrefix: '!' // You can customize your default prefix here.
+});
+
+
 // when you write the word "ping" in discord, pylon bot replies with "pong"
 commands.raw('ping', (message) => message.reply('pong!'));
 // when you write the word "pong" in discord, pylon bot replies with "ping"
